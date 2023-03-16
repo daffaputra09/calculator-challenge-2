@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CalculatorChallenge2/1.0.0": {
+        "runtime": {
+          "CalculatorChallenge2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorChallenge2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

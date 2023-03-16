@@ -1,0 +1,30 @@
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.exe
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.deps.json
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.runtimeconfig.json
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.pdb
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.csproj.AssemblyReference.cache
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.GeneratedMSBuildEditorConfig.editorconfig
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.AssemblyInfoInputs.cache
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.AssemblyInfo.cs
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.csproj.CoreCompileInputs.cache
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\refint\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.pdb
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.genruntimeconfig.cache
+D:\cs\CalculatorChallenge2\CalculatorChallenge2\obj\Debug\net7.0\ref\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.exe
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.deps.json
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.runtimeconfig.json
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\bin\Debug\net7.0\CalculatorChallenge2.pdb
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.csproj.AssemblyReference.cache
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.GeneratedMSBuildEditorConfig.editorconfig
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.AssemblyInfoInputs.cache
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.AssemblyInfo.cs
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.csproj.CoreCompileInputs.cache
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\refint\CalculatorChallenge2.dll
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.pdb
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\CalculatorChallenge2.genruntimeconfig.cache
+D:\cs\CalculatorChallenge2\version 1\CalculatorChallenge2\obj\Debug\net7.0\ref\CalculatorChallenge2.dll
