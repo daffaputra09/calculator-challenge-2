@@ -10,7 +10,7 @@ namespace CalculatorChallenge2
             decimal pertama = 0m, kedua = 0m, hasil = 0m;
             while (true)
             {
-                string input = Console.ReadLine();
+                string input = Console.ReadLine().Replace(" ","");
 
                 if (input.EndsWith("="))
                 {
