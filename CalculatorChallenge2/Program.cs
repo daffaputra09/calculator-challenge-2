@@ -1,100 +1,61 @@
 ﻿using System;
 
-namespace Kalkulator
+namespace CalculatorChallenge2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Clear();
-            int hasil = 0;
+            Console.Write("Masukkan angka dan operator: ");
+            decimal pertama = 0m, kedua = 0m, hasil = 0m;
             while (true)
             {
-                Console.Write(
-                    "\n\nInput operasi : "
-                );
-
                 string input = Console.ReadLine();
 
-                char[] simbol = { '+', '-', '*', ':' };
-
-                int posisi = input.IndexOfAny(simbol);
-
-                int pertama = 0, kedua = 0;
-
-                if (posisi == 0)
+                if (input.EndsWith("="))
                 {
-                    pertama = hasil;
-                    int x = input.Length - (posisi + 1) - 1;
-                    kedua = Convert.ToInt32(input.Substring(posisi + 1, x));
-                    Console.WriteLine($"- pertama : {pertama}");
-                    Console.WriteLine($"- kedua : {kedua}");
+                    string hitung = input.Remove(input.Length - 1);
+                    char[] symbol = { '+', '-', '*', '/', ':' };
+                    int PosisiSymbol = input.IndexOfAny(symbol);
+                    char operasi = input[PosisiSymbol];
+                    string[] angka = hitung.Split(operasi);
+
+                    if (PosisiSymbol > 0)
+                    {
+                        angka = hitung.Split(operasi);
+                        pertama = decimal.Parse(angka[0]);
+                        kedua = decimal.Parse(angka[1]);
+                    }
+                    else
+                    {
+                        pertama = hasil;
+                        angka = hitung.Split(operasi);
+                        kedua = decimal.Parse(angka[1]);
+                    }
+
+                    switch (operasi)
+                    {
+                        case '+':
+                            hasil = pertama + kedua;
+                            Console.Write($"{pertama} + {kedua} = {hasil}");
+                            break;
+                        case '-':
+                            hasil = pertama - kedua;
+                            Console.Write($"{pertama} - {kedua} = {hasil}");
+                            break;
+                        case '*':
+                            hasil = pertama * kedua;
+                            Console.Write($"{pertama} * {kedua} = {hasil}");
+                            break;
+                        case '/':
+                        case ':':
+                            hasil = pertama / kedua;
+                            Console.Write($"{pertama} {operasi} {kedua} = {hasil}");
+                            break;
+                    }
                 }
-                else
-                {
-                    pertama = Convert.ToInt32(input.Substring(0, posisi));
-
-                    int x = input.Length - (posisi + 1) - 1;
-                    kedua = Convert.ToInt32(input.Substring(posisi + 1, x));
-                }
-                char operasi = input[posisi];
-
-
-                switch (operasi)
-                {
-                    case '+':
-                        hasil = Tambah(pertama, kedua);
-                        Console.WriteLine("\nHasil = " + hasil);
-                        break;
-                    case '-':
-                        hasil = Kurang(pertama, kedua);
-                        Console.WriteLine("\nHasil = " + hasil);
-                        break;
-                    case '*':
-                        hasil = Kali(pertama, kedua);
-                        Console.WriteLine("\nHasil = " + hasil);
-                        break;
-                    case ':':
-                        hasil = Bagi(pertama, kedua);
-                        Console.WriteLine("\nHasil = " + hasil);
-                        break;
-                    default:
-                        Console.WriteLine("\nPilihan anda tidak tersedia");
-                        break;
-                }
-
-                // Console.Write("\napakah anda ingin melanjutkan? (y/n) ");
-                // char aksi = Convert.ToChar(Console.ReadLine());
-                // if (aksi == 'n') break;
-
+                else Console.WriteLine("Tambahkan symbol \"=\" di akhir");
             }
-        }
-
-        static int Tambah(int angka1, int angka2)
-        {
-            int hasil = angka1 + angka2;
-            return hasil;
-        }
-
-        // function pengurangan
-        static int Kurang(int angka1, int angka2)
-        {
-            int hasil = angka1 - angka2;
-            return hasil;
-        }
-
-        // function perkalian
-        static int Kali(int angka1, int angka2)
-        {
-            int hasil = angka1 * angka2;
-            return hasil;
-        }
-
-        // function pembagian
-        static int Bagi(int angka1, int angka2)
-        {
-            int hasil = angka1 / angka2;
-            return hasil;
         }
     }
 }
