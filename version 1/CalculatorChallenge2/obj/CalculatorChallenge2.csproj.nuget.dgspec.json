@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cs\\CalculatorChallenge2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj": {}
+    "D:\\cs\\calculator-challenge-2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj": {}
   },
   "projects": {
-    "D:\\cs\\CalculatorChallenge2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj": {
+    "D:\\cs\\calculator-challenge-2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cs\\CalculatorChallenge2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj",
+        "projectUniqueName": "D:\\cs\\calculator-challenge-2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj",
         "projectName": "CalculatorChallenge2",
-        "projectPath": "D:\\cs\\CalculatorChallenge2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj",
+        "projectPath": "D:\\cs\\calculator-challenge-2\\version 1\\CalculatorChallenge2\\CalculatorChallenge2.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\cs\\CalculatorChallenge2\\version 1\\CalculatorChallenge2\\obj\\",
+        "outputPath": "D:\\cs\\calculator-challenge-2\\version 1\\CalculatorChallenge2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -32,25 +32,25 @@ namespace CalculatorChallenge2Ver2
                         angka = hitung.Split(operasi);
                         kedua = decimal.Parse(angka[1]);
                     }
-
+                    string[] temp = new string[2] { pertama.ToString(), kedua.ToString() };
                     switch (operasi)
                     {
                         case '+':
                             hasil = pertama + kedua;
-                            Console.Write($"{pertama} + {kedua} = {hasil}");
+                            Console.Write($"{temp[0]} + {temp[1]} = {hasil}");
                             break;
                         case '-':
                             hasil = pertama - kedua;
-                            Console.Write($"{pertama} - {kedua} = {hasil}");
+                            Console.Write($"{temp[0]} - {temp[1]} = {hasil}");
                             break;
                         case '*':
                             hasil = pertama * kedua;
-                            Console.Write($"{pertama} * {kedua} = {hasil}");
+                            Console.Write($"{temp[0]} * {temp[1]} = {hasil}");
                             break;
                         case '/':
                         case ':':
                             hasil = pertama / kedua;
-                            Console.Write($"{pertama} / {kedua} = {hasil}");
+                            Console.Write($"{temp[0]} {operasi} {temp[1]} = {hasil}");
                             break;
                     }
                 }
