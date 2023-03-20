@@ -39,5 +39,4 @@ Masukkan angka dan operator: 18+9=
 
  ---     
  ### Calculator Demo Video  
- 
- ![](https://github.com/daffaputra09/assets/blob/main/challenge%202%20version%202.gif)
+ <img src="https://github.com/daffaputra09/assets/blob/main/challenge%202%20version%202.gi" width="80%" >
