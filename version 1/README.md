@@ -36,3 +36,8 @@ Masukkan angka dan operator: 18+9=
 | *        | Multiplication |
 | /        | Division       |
 | :        | Division       |  
+
+ ---     
+ ### Calculator Demo Video  
+ 
+ ![](https://github.com/daffaputra09/assets/blob/main/challenge%202%20version%201.gif)
